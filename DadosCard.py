@@ -31,4 +31,5 @@ dados = [gerar_linha_safra() for _ in range(100)]
 df = pd.DataFrame(dados)
 
 # Salvar como Excel
-df.to_csv("safra.csv", sep=';', decimal=',', index=False )
+
+df.to_csv("banco.csv", sep=';', decimal=',', index=False )
